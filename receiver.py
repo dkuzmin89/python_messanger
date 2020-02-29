@@ -2,7 +2,6 @@ import datetime
 import time
 import requests
 
-username = 'Dima'
 last_received = 0
 
 while True:
