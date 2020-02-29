@@ -13,6 +13,7 @@ password_storage = {
     'Mary': '54321'
 }
 
+
 @app.route("/")
 def hello_method():
     return "Hello, World!"
@@ -72,4 +73,5 @@ def messages_method():
     return {'messages': filtered_messages}
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
